@@ -21,6 +21,11 @@ import PostReq from "./Axios/AxiosPost/PostReq";
 import AddUser from "./Axios/AxiosPost/AddUser";
 import UseContextMain from "./Hooks/UseContext/UseContextMain";
 import ContexRouting from "./Hooks/UseContexHooks/ContexRouting";
+import Parent from "./Hooks/UseMemo/Parent";
+import ParentCallback from './Hooks/UseCallback/Parent' 
+import HookFormValidation from "./ReactHookForm/HookFormValidation";
+import HookFormWithPostReq from './ReactHookForm/HookFormWithPostReq'
+import QueryRouting from "./ReactQuery/QueryRouting";
 function App() {
   return (
     <div className="App">
@@ -42,7 +47,12 @@ function App() {
       {/* <LoadingMain/> */}
       {/* <IncrimentDecrement/> */}
       {/* <UseContextMain/> */}
-      <ContexRouting/>
+      {/* <ContexRouting/> */}
+      {/* <Parent/> */}
+      {/* <ParentCallback/> */}
+      {/* <HookFormValidation/> */}
+      {/* <HookFormWithPostReq/> */}
+      <QueryRouting/>
     </div>
   );
 }
